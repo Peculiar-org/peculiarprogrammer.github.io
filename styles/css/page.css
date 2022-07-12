@@ -77,9 +77,7 @@ div.root-container {
     margin-left: 0;
   }
 
-  .img {
-    src: url("") !important;
-   }
+  
 }
 
 @media screen and (max-width: 400px) {
@@ -88,9 +86,6 @@ div.root-container {
     float: none;
   }
 
-  .img {
-   src: url("") !important;
-  }
 }
 
 /* flex-container center vertical and :horizontal */
