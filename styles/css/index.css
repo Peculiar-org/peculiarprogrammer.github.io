@@ -1,0 +1,101 @@
+body {
+	color: whitesmoke;
+	background-color: #0d1617;
+}
+
+.navbar {
+	position: fixed;
+	align-items: center;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #162220;
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+a {
+	color: rgb(244, 240, 240);
+}
+
+.card {
+	color: whitesmoke;
+	background-color: #0d1715;
+	border: 1px solid #2f3339;
+}
+
+.profile-photo {
+	width: 8cm !important;
+	height: 8cm !important;
+	outline: none;
+	border: 1px solid #2f3339;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+
+.contrib-logo {
+	width: 1cm !important;
+	height: 1cm !important;
+	outline: none;
+	border: 1px solid #2f3339;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+
+pre {
+	white-space: row;
+}
+
+.code-container {
+	border-radius: 2px;
+	background-color: #162122;
+	border: 1px solid #2f3937;
+	color: whitesmoke;
+}
+
+.btn {
+	background-color: #21262D;
+	border: 1px solid #2f3339;
+	color: whitesmoke;
+}
+
+.btn:hover {
+	background-color: #4d4d4d;
+	border: 1px solid #2f3339;
+	color: whitesmoke;
+}
+
+img {
+	border: 1px solid #2f3339;
+}
+
+.card-content {
+	background-color: #0d1717;
+	border: none;
+}
+
+@media screen and (max-width: 1400px) {
+	.profile-container {
+		width: 100% !important;
+	}
+
+	.section-container {
+		width: 100% !important;
+	}
+
+	.profile-photo {
+		width: 5cm !important;
+		height: 5cm !important;
+	}
+}
+
+
+@media screen and (max-width: 580px) {
+	.navbar span {
+		display: none !important;
+	}
+}
